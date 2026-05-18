@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin login</title>
+    <link rel="stylesheet" href="admin.css">
+  <script src="admin.js"></script>
+</head>
+<body>
+    <div id="first">
+       <img src="gate.jpeg" alt="" id="firstimage">
+       <div id="second">
+        <h2>Create An Account</h2>
+         <img src="download (1).jpeg" alt="" id="logo">
+         <form action="" method="post" onsubmit="return confirm()">
+                <label for="" id="admin">ADMIN'S ID:</label>
+                <input type="text" title="for admins only" placeholder="enter your user ID" id="admin2" oninput="return enter()">
+                <label for="" id="admin3">MOBILE NUMBER:</label>
+                <input type="phone" title="for admins only"  placeholder="+234xxxxxxxxxx"id="admin4" oninput="return enter()">
+                <label for="" id="admin5">EMAIL:</label>
+                <input type="email" title="for admins only" placeholder="enter your email" id="admin6" oninput="return enter()">
+                <label for="" id="admin7">PASSWORD:</label>
+                <input type="password" title="for admins only" placeholder="enter your user password" id="admin8" oninput="return enter()" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\w_]).{8}$"
+    title="password must be exactly 8 characters and include uppercase,number,and special characters" maxlength="8">
+                <button type="submit" title="login for admins only" id="acc" onclick="return confirm()">Create Account</button>  
+            <a href="" id="get" title="tap here only if you already have an account on the portal">Already have an account| login</a>
+           <p id="ajeh"></p>
+        <p id="ajah"></p>
+        </form>
+    </div>
+</body>
+</html>

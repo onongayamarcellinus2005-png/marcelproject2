@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>avers</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+</head>
+<body>
+    <div id="first">
+     <img src="gate.jpeg" alt="" id="firstimage">
+    
+     <div id="second">
+        <h2>Create An Account</h2>
+         <img src="download (1).jpeg" alt="" id="logo">
+        <form action="" method="post" id="form" onsubmit="return confirm()">
+            <label for="firstname" id="name">FULLNAME: <br>
+            </label>
+            <input type="text" title="FULLNAME" placeholder="FULLNAME"  id="fora"  oninput="return enter()">
+
+            <label for="firstname" id="matr">MATRIC NO: <br>
+            </label>
+            <input type="" title="MATRIC NO" placeholder="MATRIC NO"  id="matric"  oninput="return enter()">
+           
+            <label for="email" id="ema">EMAIL: <br>
+            </label>
+            <input type="email" title="EMAIL" placeholder="EMAIL"  id="mail"  oninput="return enter()">
+           
+            <label for="password" id="pho">PHONE NUMBER: <br>
+            </label>
+            <input type="phone" title="PHONE NUMBER" placeholder="+234xxxxxxxxxx" id="phone" maxlength="11"  oninput="return enter()">
+           
+            <label for="password" id="pass">PASSWORD: <br>
+            </label>
+            <input type="password" title="PASSWORD" placeholder="PASSWORD"  id="password"  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\w_]).{8}$"
+    title="password must be exactly 8 characters and include uppercase,number,and special characters" maxlength="8" oninput="return enter()">
+           
+            <a href="mainpage.html"></a><button type="submit" title="login for students only" id="acc" onclick="return confirm()">Create Account</button></a>  
+            <a href="login.html" id="get" title="tap here only if you already have an account on the portal">Already have an account| login</a>
+        </form>
+        <a href="admin.html" title="only the school admins should tap here"><button type="submit" id="admin" >Admin login</button></a>  
+        <p id="ajeh"></p>
+        <p id="ajah"></p>
+     </div>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,141 @@
+#first{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+  
+}
+
+#firstimage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+#logo{
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    left: 80%;
+    top: 5%;
+}
+
+#second{
+    position: absolute;
+    height: 80%;
+    width: 35%;
+   background-color:rgba(255, 255, 255,0.8);
+   top: 10%;
+   left: 30%;
+}
+
+h2{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    color: blue;
+}
+input:hover{
+    background-color: rgb(212, 212, 143);
+}
+input-border:active{
+    background-color:rgb(212, 206, 167);
+}
+
+#admin{
+    position: absolute;  
+    top: 16%;
+    left: 6%;
+   
+}
+#admin2{
+     position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 22%;
+    left: 6%;
+    border-radius: 20px;
+   
+}
+#admin3{
+    position: absolute;  
+    top: 32%;
+    left: 6%;
+   
+}
+#admin4{
+     position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 38%;
+    left: 6%;
+    border-radius: 20px;
+   
+}
+#admin5{
+    position: absolute;  
+    top: 48%;
+    left: 6%;
+   
+}
+#admin6{
+     position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 54%;
+    left: 6%;
+    border-radius: 20px;
+   
+}
+#admin7{
+    position: absolute;  
+    top: 66%;
+    left: 6%;
+   
+}
+#admin8{
+     position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 72%;
+    left: 6%;
+    border-radius: 20px;
+   
+}
+
+#acc{
+    position: absolute;
+    height: 6%;
+    width: 66%;
+    top: 82%;
+    left: 6%;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+#get{
+    position: absolute;
+    top: 90%;
+   left: 2%;
+   font-size: 15px;
+    text-decoration: none;
+    color: black;
+   
+}
+
+#ajeh{
+   position: absolute;
+   top: 92%; 
+   left: 2%;
+   color: blue;
+   font-size: 15px;
+}
+#ajah{
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  color: blue;
+}

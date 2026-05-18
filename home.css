@@ -1,0 +1,159 @@
+#first{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+  
+}
+#firstimage{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#logo{
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    left: 80%;
+    top: 5%;
+}
+
+#second{
+    position: absolute;
+    height: 80%;
+    width: 35%;
+   background-color:rgba(255, 255, 255,0.8);
+   top: 10%;
+   left: 30%;
+}
+  
+
+#fora{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 18%;
+    left: 6%;
+    border-radius: 20px;
+  
+}
+#name{
+    position: absolute;  
+    top: 13%;
+    left: 6%;
+   
+}
+
+#matric{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 32%;
+    left: 6%;
+    border-radius: 20px;
+  
+}
+#matr{
+    position: absolute;  
+    top: 27%;
+    left: 6%;
+   
+}
+
+#mail{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 45%;
+    left: 6%;
+    border-radius: 20px;
+  
+}
+#ema{
+    position: absolute;  
+    top: 41%;
+    left: 6%;
+   
+}
+
+#phone{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 58%;
+    left: 6%;
+    border-radius: 20px;
+  
+}
+#pho{
+    position: absolute;  
+    top: 54%;
+    left: 6%;
+   
+}
+
+#password{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 72%;
+    left: 6%;
+    border-radius: 20px;
+  
+}
+#pass{
+    position: absolute;  
+    top: 67%;
+    left: 6%;
+   
+}
+
+
+h2{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    color: blue;
+}
+
+#acc{
+    position: absolute;
+    height: 6%;
+    width: 66%;
+    top: 82%;
+    left: 6%;
+    border-radius: 20px;
+    background-color: blue;
+}
+#admin{
+    position: absolute;
+    height: 6%;
+    width: 20%;
+    top: 82%;
+    left: 76%;
+    background-color: blue;
+}
+#get{
+    position: absolute;
+    top: 92%;
+   left: 2%;
+   font-size: 15px;
+    text-decoration: none;
+    color: black;
+   
+}
+
+#ajeh{
+   position: absolute;
+   top: 88%; 
+   left: 42%;
+   color: blue;
+}
+#ajah{
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  color: blue;
+}

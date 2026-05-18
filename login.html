@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="first">
+<img src="download (1).jpeg" alt="" id="img">
+<div id="second">
+    <h1>Welcome Back!!</h1>
+    <p>please login securely using your credentials </p>
+    <hr>
+    <h2>student login</h2>
+    <form action="" method="post">
+        <label for="" id="for">
+            Student ID:
+             </label>
+            <input type="text" title="Enter your ID/matric number" placeholder="Enter your ID/matric number"  id="fora" required >
+
+        <label for="" id="pass">
+            Password:
+        </label>
+            <input type="password" placeholder="Enter your password" id="forb" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\w_]).{8}$"
+    title="password must be exactly 8 characters and include uppercase,number,and special characters" maxlength="8" required>
+         <a href="forgetpassword.html" id="forget" title="forgot password">Forgot password!?</a> 
+       <a href="mainpage.html"><button type="submit" id="log" title="login">Login</a></button>
+        <hr id="hr1"> 
+        <p id="pa">OR</p>
+        <hr id="hr2">
+    </form>
+    <a href="www.email.com"><button type="submit" id="mail" title="Continue with Email">Continue with Email</button></a>
+
+</div>
+<div id="third">
+<p id="pea">2026 Adekunle Ajasin University, Akungba Akoko.</p>
+</div>
+    </div>
+</body>
+</html>
