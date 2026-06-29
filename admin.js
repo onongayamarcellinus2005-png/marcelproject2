@@ -1,5 +1,5 @@
 setInterval(timer,1000);
- alert(`you're welcome to the admin's page kindly proceed with the next step `)
+//  alert(`you're welcome to the admin's page kindly proceed with the next step `)
  alert(`please note that this action might be risky to student `)
     function timer(){
         let today= new Date();

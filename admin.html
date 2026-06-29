@@ -4,24 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin login</title>
+       <link rel="icon" href="bg/download (1).jpeg" alt="">
     <link rel="stylesheet" href="admin.css">
   <script src="admin.js"></script>
 </head>
 <body>
     <div id="first">
-       <img src="gate.jpeg" alt="" id="firstimage">
+       
+       <img src="bg/gate.jpeg" alt="" id="firstimg1" class="firstimg">
+     <img src="bg/02.jpg" alt="" id="firstimg2" class="firstimg">
+      <img src="bg/03.jpg" alt="" id="firstimg3" class="firstimg">
+     <img src="bg/04.jpg" alt="" id="firstimg4" class="firstimg">
+     <img src="bg/05.jpg" alt="" id="firstimg5" class="firstimg">
+     <img src="bg/06.jpg" alt="" id="firstimg6" class="firstimg">
+
+    
        <div id="second">
         <h2>Create An Account</h2>
-         <img src="download (1).jpeg" alt="" id="logo">
+         <img src="bg/download (1).jpeg" alt="" id="logo">
          <form action="" method="post" onsubmit="return confirm()">
+            <!-- <?php
+   ini_set('display_errors', '1');
+    error_reporting(E_ALL);
+     include('db.php');
+    if(isset($_REQUEST["submit"])){
+        $fullname=$_REQUEST["fullname"];
+        $email=$_REQUEST["email"];
+        $password=$_REQUEST["password"];
+        $number=$_REQUEST["number"];
+        $sql = "INSERT INTO admin(fullname, email,` password`, `number`,) VALUES('$fullname', '$email', '$password, '$number)";
+        $result=mysqli_query($conn, $sql);
+        if($result){
+        echo "<script> alert('Welcome to the admin dashboard')</script>";
+        }else{
+             echo mysqli_error($conn);
+            }
+    }
+    ?> -->
                 <label for="" id="admin">ADMIN'S ID:</label>
-                <input type="text" title="for admins only" placeholder="enter your user ID" id="admin2" oninput="return enter()">
+                <input type="text" name="fullname" title="for admins only" placeholder="enter your user ID" id="admin2" oninput="return enter()">
                 <label for="" id="admin3">MOBILE NUMBER:</label>
-                <input type="phone" title="for admins only"  placeholder="+234xxxxxxxxxx"id="admin4" oninput="return enter()">
+                <input type="phone" title="for admins only" name="number"  placeholder="+234xxxxxxxxxx"id="admin4" oninput="return enter()">
                 <label for="" id="admin5">EMAIL:</label>
-                <input type="email" title="for admins only" placeholder="enter your email" id="admin6" oninput="return enter()">
+                <input type="email" title="for admins only" name="email" placeholder="enter your email" id="admin6" oninput="return enter()">
                 <label for="" id="admin7">PASSWORD:</label>
-                <input type="password" title="for admins only" placeholder="enter your user password" id="admin8" oninput="return enter()" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\w_]).{8}$"
+                <input type="password" name="password" title="for admins only" placeholder="enter your user password" id="admin8" oninput="return enter()" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\w_]).{8}$"
     title="password must be exactly 8 characters and include uppercase,number,and special characters" maxlength="8">
                 <button type="submit" title="login for admins only" id="acc" onclick="return confirm()">Create Account</button>  
             <a href="" id="get" title="tap here only if you already have an account on the portal">Already have an account| login</a>

@@ -1,0 +1,1076 @@
+/* #one{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+  
+} */
+/* #firstimg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+} */
+
+/* #logo{
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    left: 80%;
+    top: 5%;
+}
+
+#second{
+    position: absolute;
+    height: 85%;
+    width: 35%;
+   background-color:rgba(255, 255, 255,0.8);
+   top: 10%;
+   left: 30%;
+}
+  
+
+#fora{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 18%;
+    left: 6%;
+    border-radius: 10px;
+  
+}
+#name{
+    position: absolute;  
+    top: 13%;
+    left: 6%;
+     
+    overflow: hidden;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    
+}
+
+#matric{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 29%;
+    left: 6%;
+    border-radius: 10px;
+  
+}
+#matr{
+    position: absolute;  
+    top: 25%;
+    left: 6%;
+      
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  
+    /* overflow: hidden;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    animation: typing 20s infinite,blink 0.8s infinite; */
+   
+/* }
+
+#mail{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 52%;
+    left: 6%;
+    border-radius: 10px;
+  
+}
+#ema{
+    position: absolute;  
+    top: 47%;
+    left: 6%;
+      
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  
+    /* overflow: hidden;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    animation: typing 20s infinite,blink 0.8s infinite; */
+/*    
+}
+
+#phone{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 63%;
+    left: 6%;
+    border-radius: 10px;
+    
+}
+#pho{
+    position: absolute;  
+    top: 59%;
+    left: 6%; */
+      
+    /* font-size: 10px; */
+   /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  
+    /* overflow: hidden;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    animation: typing 20s infinite,blink 0.8s infinite; */
+   
+/* } */
+/* 
+#password{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 74%;
+    left: 6%;
+    border-radius: 10px;
+  
+}
+#pass{
+    position: absolute;  
+    top: 70%;
+    left: 6%;
+      
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  
+    /* overflow: hidden;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    animation: typing 20s infinite,blink 0.8s infinite; */
+   
+/* }
+
+#acc{
+    position: absolute;
+    height: 6%;
+    width: 66%;
+    top: 84%;
+    left: 6%;
+   color: white;
+    border-radius: 10px;
+    background-color: blue;
+  
+}
+
+
+h2{
+    position: absolute;
+    top: 3%;
+    overflow: hidden;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    animation: typing 20s infinite,blink 0.8s infinite;
+    left: 4%;
+    color: blue;
+}
+
+@keyframes typing{
+    0%{
+        width: 0;
+        
+    }
+    50%{
+        width: 220px;
+        
+    }
+    100%{
+        width: 0;
+        
+    }
+}
+
+ @keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+ }
+#dept{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 40%;
+    left: 6%;
+    border-radius: 10px;
+   
+}
+#dep{
+    position: absolute;  
+    top: 36%;
+    left: 6%;
+      
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  
+    /* overflow: hidden;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    animation: typing 20s infinite,blink 0.8s infinite; */
+   
+/* }
+#pic{
+    position: absolute;
+    height: 5%;
+    width: 8%;
+    top: 53%;
+    left: 68%;
+} 
+#phn{
+    position: absolute;
+    height: 5%;
+    width: 8%;
+    top: 64%;
+    left: 68%;
+} 
+#pic2{
+    position: absolute;
+    height: 5%;
+    width: 8%;
+    top: 19%;
+    left: 68%;
+} 
+#pic3{
+    position: absolute;
+    height: 5%;
+    width: 8%;
+    top: 19%;
+    left: 68%;
+} 
+a{
+    text-decoration: none;
+      color: white;
+}
+#admin{
+    position: absolute;
+    height: 6%;
+    width: 20%;
+    top: 84%;
+      color: white;
+    font-size: 12px;
+    left: 76%;
+    background-color: blue;
+}
+#get{
+    position: absolute;
+    top: 92%;
+   left: 2%;
+   font-size: 15px;
+    text-decoration: none;
+    color: black;
+   
+}
+
+#ajeh{
+   position: absolute;
+   top: 90%; 
+   left: 72%;
+   color: blue;
+}
+#ajah{
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  color: blue;
+} */
+
+
+
+/* body{
+    padding: 0;
+    margin: 0;
+
+} 
+
+
+.firstimg{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    position:absolute;
+    top: 0;
+    opacity:0;
+    left:0;
+    animation:fade 12s infinite;
+    
+}  */
+
+    /* delay for each image before fading */
+
+ /* #firstimg1{
+    animation-delay: 0s;
+}
+#firstimg2{
+    animation-delay: 3s;
+}
+#firstimg3{
+    animation-delay: 6s;
+}
+#firstimg4{
+    animation-delay: 9s;
+}
+#firstimg5{
+    animation-delay: 12s;
+}
+#firstimg6{
+    animation-delay: 15s;
+}
+
+@keyframes fade{
+0%{
+   opacity: 0;
+}
+10%{
+   opacity: 1;
+}
+25%{
+   opacity: 1;
+} 
+35%{
+    opacity: 0;
+}
+100%{
+  opacity: 0;
+}
+
+
+}
+
+/* the eye */
+/* #togglePassword{
+    position: absolute;
+    top: 76%;
+    left: 72%;
+   
+} */
+
+/* Phones */
+/* @media screen and (max-width:480px){
+
+     #second{
+         width: 70%;
+        padding:6px;
+       left: 40%;
+    }
+
+    #header{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+
+    #logo{
+        width:35px;
+        height:55px;
+        margin-top:10px;
+    }
+
+    #title{
+        font-size:24px;
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    #title-icon{
+        font-size:18px;
+    }
+
+    #ajeh,
+    #ajah{
+        font-size:12px;
+    }
+
+    #admin,
+    #phone,
+    #mail,
+    #password{
+        height:45px;
+        font-size:14px;
+    }
+
+    #create-btn{
+        height:45px;
+        font-size:14px;
+    }
+} */
+
+/* Large Phones */
+/* @media screen and (min-width:481px) and (max-width:767px){
+
+     #second{
+        width:90%;
+    }
+
+    #title{
+        font-size:28px;
+    }
+} */
+
+/* Tablets */
+/* @media screen and (min-width:768px) and (max-width:1024px){
+
+     #second{
+        width:80%;
+    }
+
+    #title{
+        font-size:32px;
+    }
+} */
+
+/* Laptops */
+/* @media screen and (min-width:1025px) and (max-width:1366px){
+
+     #second{
+        width:65%;
+    }
+} */
+
+/* Desktops */
+/* @media screen and (min-width:1367px) and (max-width:1920px){
+
+    #second{
+        width:50%;
+    }
+} */
+
+/* TVs */
+/* @media screen and (min-width:1921px){
+
+   #second{
+        width:40%;
+        max-width:900px;
+    }
+
+    #title{
+        font-size:45px;
+    }
+
+    #adminid,
+    #phone,
+    #email,
+    #password{
+        height:60px;
+        font-size:20px;
+    }
+
+    #create-btn{
+        height:60px;
+        font-size:20px;
+    }
+} */
+
+
+#one{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+  
+}
+/* #firstimg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+} */
+
+#logo{
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    left: 80%;
+    top: 5%;
+}
+
+#second{
+    position: absolute;
+    width:35%;
+    height:85%;
+   background-color:rgba(255, 255, 255,0.8);
+   top: 10%;
+   left: 30%
+   }
+  
+
+#fora{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 18%;
+    left: 6%;
+    border-radius: 10px;
+  
+}
+#name{
+    position: absolute;  
+    top: 13%;
+    left: 6%;
+     
+    overflow: hidden;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    /* border-right: 3px solid black;
+    white-space: nowrap;
+    animation: typing 20s infinite,blink 0.8s infinite;
+    */
+}
+
+#matric{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 29%;
+    left: 6%;
+    border-radius: 10px;
+  
+}
+#matr{
+    position: absolute;  
+    top: 25%;
+    left: 6%;
+      
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    /* overflow: hidden;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    animation: typing 20s infinite,blink 0.8s infinite; */
+   
+}
+
+#mail{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 52%;
+    left: 6%;
+    border-radius: 10px;
+  
+}
+#ema{
+    position: absolute;  
+    top: 47%;
+    left: 6%;
+      
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    /* overflow: hidden;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    animation: typing 20s infinite,blink 0.8s infinite; */
+   
+}
+
+#phone{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 63%;
+    left: 6%;
+    border-radius: 10px;
+    
+}
+#pho{
+    position: absolute;  
+    top: 59%;
+    left: 6%;
+      
+    /* font-size: 10px; */
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    /* overflow: hidden;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    animation: typing 20s infinite,blink 0.8s infinite; */
+   
+}
+
+#password{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 74%;
+    left: 6%;
+    border-radius: 10px;
+  
+}
+#pass{
+    position: absolute;  
+    top: 70%;
+    left: 6%;
+      
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    /* overflow: hidden;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    animation: typing 20s infinite,blink 0.8s infinite; */
+   
+}
+
+#acc{
+    position: absolute;
+    height: 6%;
+    width: 66%;
+    top: 84%;
+    left: 6%;
+   color: white;
+    border-radius: 10px;
+    background-color: blue;
+  
+}
+
+
+h2{
+    position: absolute;
+    top: 3%;
+    overflow: hidden;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    animation: typing 20s infinite,blink 0.8s infinite;
+    left: 4%;
+    color: blue;
+}
+
+@keyframes typing{
+    0%{
+        width: 0;
+        
+    }
+    50%{
+        width: 220px;
+        
+    }
+    100%{
+        width: 0;
+        
+    }
+}
+
+ @keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+ }
+#dept{
+    position: absolute;
+    height: 6%;
+    width: 70%;
+    top: 40%;
+    left: 6%;
+    border-radius: 10px;
+   
+}
+#dep{
+    position: absolute;  
+    top: 36%;
+    left: 6%;
+      
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    /* overflow: hidden;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    animation: typing 20s infinite,blink 0.8s infinite; */
+   
+}
+#pic{
+    position: absolute;
+    height: 5%;
+    width: 8%;
+    top: 53%;
+    left: 68%;
+} 
+#phn{
+    position: absolute;
+    height: 5%;
+    width: 8%;
+    top: 64%;
+    left: 68%;
+} 
+#pic2{
+    position: absolute;
+    height: 5%;
+    width: 8%;
+    top: 19%;
+    left: 68%;
+} 
+#pic3{
+    position: absolute;
+    height: 5%;
+    width: 8%;
+    top: 19%;
+    left: 68%;
+} 
+a{
+    text-decoration: none;
+      color: white;
+}
+#admin{
+    position: absolute;
+    height: 6%;
+    width: 20%;
+    top: 84%;
+      color: white;
+    font-size: 12px;
+    left: 76%;
+    background-color: blue;
+}
+#get{
+    position: absolute;
+    top: 92%;
+   left: 2%;
+   font-size: 15px;
+    text-decoration: none;
+    color: black;
+   
+}
+
+#ajeh{
+   position: absolute;
+   top: 90%; 
+   left: 72%;
+   color: blue;
+}
+#ajah{
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  color: blue;
+}
+
+/* #par{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+} */
+
+body{
+    padding: 0;
+    margin: 0;
+
+} 
+
+
+.firstimg{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    position:absolute;
+    top: 0;
+    opacity:0;
+    left:0;
+    animation:fade 12s infinite;
+    
+} 
+
+    /* delay for each image before fading */
+
+ #firstimg1{
+    animation-delay: 0s;
+}
+#firstimg2{
+    animation-delay: 3s;
+}
+#firstimg3{
+    animation-delay: 6s;
+}
+#firstimg4{
+    animation-delay: 9s;
+}
+#firstimg5{
+    animation-delay: 12s;
+}
+#firstimg6{
+    animation-delay: 15s;
+}
+
+@keyframes fade{
+0%{
+   opacity: 0;
+}
+10%{
+   opacity: 1;
+}
+25%{
+   opacity: 1;
+} 
+35%{
+    opacity: 0;
+}
+100%{
+  opacity: 0;
+}
+
+
+}
+
+/* the eye */
+#togglePassword{
+    position: absolute;
+    top: 76%;
+    left: 72%;
+   
+}
+/* .password-container {
+    position: relative;
+    width: 300px;
+}
+
+#pass {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    font-size: 16px;
+}
+
+.password-container span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+    font-size: 18px;
+}
+
+
+   *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding:20px;
+}
+
+ #second{
+    width:100%;
+    max-width:650px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,.2);
+}
+
+#header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:20px;
+}
+
+#logo{
+    width:70px;
+    height:70px;
+    object-fit:cover;
+}
+
+title{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:35px;
+}
+
+#title-icon{
+    font-size:25px;
+}
+
+#ajah{
+    font-size:14px;
+    margin-bottom:10px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+#adminid,
+#phone,
+#email,
+#password{
+    width:100%;
+    height:50px;
+    border:1px solid #ccc;
+    border-radius:30px;
+    padding:0 15px;
+    font-size:16px;
+}
+
+#create-btn{
+    width:100%;
+    height:50px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+footer{
+    margin-top:15px;
+}
+
+#login-link{
+    text-decoration:none;
+}
+
+#ajeh{
+    margin-top:10px;
+} */
+
+ @media (min-width: 1200px) {
+  #one .text-11 {
+    font-size: 2.75rem !important;
+  }
+}
+
+#one .text-12 {
+  font-size: calc(1.425rem + 2.1vw) !important;
+}
+
+@media (min-width: 1200px) {
+  #one .text-12 {
+    font-size: 3rem !important;
+  }
+}
+
+#one .text-13 {
+  font-size: calc(1.45rem + 2.4vw) !important;
+}
+
+@media (min-width: 1200px) {
+  #one .text-13 {
+    font-size: 3.25rem !important;
+  }
+}
+
+#one .text-14 {
+  font-size: calc(1.475rem + 2.7vw) !important;
+}
+
+@media (min-width: 1200px) {
+  #one.text-14 {
+    font-size: 3.5rem !important;
+  }
+}
+
+#one.text-15 {
+  font-size: calc(1.5rem + 3vw) !important;
+}
+
+@media (min-width: 1200px) {
+ #one .text-15 {
+    font-size: 3.75rem !important;
+  }
+}
+
+#one .text-16 {
+  font-size: calc(1.525rem + 3.3vw) !important;
+}
+
+@media (min-width: 1200px) {
+ #one .text-16 {
+    font-size: 4rem !important;
+  }
+}
+
+#one .text-17 {
+  font-size: calc(1.575rem + 3.9vw) !important;
+}
+
+@media (min-width: 1200px) {
+  #one .text-17 {
+    font-size: 4.5rem !important;
+  }
+}
+
+#one .text-18 {
+  font-size: calc(1.625rem + 4.5vw) !important;
+}
+
+@media (min-width: 1200px) {
+  #one .text-18 {
+    font-size: 5rem !important;
+  }
+}
+
+#one .text-19 {
+  font-size: calc(1.65rem + 4.8vw) !important;
+}
+
+@media (min-width: 1200px) {
+  #one.text-19 {
+    font-size: 5.25rem !important;
+  }
+}
+
+#one .text-20 {
+  font-size: calc(1.7rem + 5.4vw) !important;
+}
+
+@media (min-width: 1200px) {
+ #one .text-20 {
+    font-size: 5.75rem !important;
+  }
+}
+
+#one .text-21 {
+  font-size: calc(1.775rem + 6.3vw) !important;
+}
+
+@media (min-width: 1200px) {
+  #one .text-21 {
+    font-size: 6.5rem !important;
+  }
+}
+
+#one .text-22 {
+  font-size: calc(1.825rem + 6.9vw) !important;
+}
+
+@media (min-width: 1200px) {
+  #one .text-22 {
+    font-size: 7rem !important;
+  }
+}
+
+#one .text-23 {
+  font-size: calc(1.9rem + 7.8vw) !important;
+}
+
+@media (min-width: 1200px) {
+  #one .text-23 {
+    font-size: 7.75rem !important;
+  }
+}
+
+#one .text-24 {
+  font-size: calc(1.95rem + 8.4vw) !important;
+}
+
+@media (min-width: 1200px) {
+  #one .text-24 {
+    font-size: 8.25rem !important;
+  }
+}
+
+#one .text-25 {
+  font-size: calc(2.025rem + 9.3vw) !important;
+}
+
+@media (min-width: 1200px) {
+  #one .text-25 {
+    font-size: 9rem !important;
+  }
+}

@@ -3,19 +3,55 @@
     height: 100%;
     width: 100%;
     overflow: scroll;
+    background-size: cover;
 }
 img{
     position: absolute;
     height: 100%;
     width: 100%;
+    
+}
+#welc{
+    position: absolute;
+    left: 2%;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#dept{
+    position: absolute;
+    left: 50%;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#cgpa{
+    position: absolute;
+    left: 2%;
+    top: 40%;
+    color:white;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+#ina{
+    position: absolute;
+    height: 8%;
+    width: 8%;
+    top: 9%;
+    left: 54%;
+}
+h1{
+    overflow: hidden;
+    border-right: 3px solid black;
+    white-space:nowrap;
+    animation: typing 10s infinite,blink 0.8s infinite;
+}
 #second{
     position: absolute;
     height: 100%;
     width: 100%;
-   
-    background-color: rgba(255, 255, 255,0.2);
+     background-size: cover;
+   overflow: scroll;
+    /* background-color: rgba(255, 255, 255,0.2); */
 }
 
 h1{
@@ -39,8 +75,112 @@ p{
     width: 96%;
    top: 50%;
    left: 2%;
-    background-color: rgb(54, 54, 190);
+    background-color: navy;
 }
+#fourth{
+    position: absolute;
+    height: 30%;
+    width: 96%;
+    border-radius: 50px;
+   top: 160%;
+   left: 0%;
+    /* background-color: white; */
+}
+#sixth{
+    position: absolute;
+    height: 30%;
+    width: 96%;
+    border-radius: 50px;
+   top: 260%;
+   left: 0%;
+    /* background-color: white; */
+}
+#seven{
+    position: absolute;
+    height: 30%;
+    width: 96%;
+    border-radius: 50px;
+   top: 310%;
+   left: 0%;
+    /* background-color: white; */
+}
+img{
+    position: absolute;
+    height: 100%;
+}
+#book{
+    position: absolute;
+    height: 80%;
+    width: 6%;
+    top: 10%;
+    left: 90%;
+}
+ #regs{
+    position: absolute;
+    height: 80%;
+    width: 6%;
+    top: 10%;
+    left: 90%;
+} 
+
+
+#end{
+    background-color: black;
+    color: white;
+    height: 40%;
+    width: 120%;
+    left: 0;
+    bottom: 0;
+}
+#bun{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    border-radius: 50px;
+  
+   left: 0%;
+    background-color: rgb(233, 215, 215);
+}
+
+#bun:hover{
+  background-color: blue;
+}
+#bun:active{
+  background-color: green;
+}
+
+#fifth{
+    position: absolute;
+    height: 30%;
+    width: 96%;
+    border-radius: 50px;
+   top: 210%;
+   left: 0%;
+    /* background-color: white; */
+}
+#buna{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    border-radius: 50px;
+   top: 0%;
+   left: 0%;
+    /* background-color: rgb(204, 168, 168); */
+}
+
+#buna:hover{
+  background-color: blue;
+}
+#buna:active{
+  background-color: green;
+}
+
   /* TIME AND DATE */
 #ajeh{
    position: absolute;
@@ -58,18 +198,111 @@ p{
 
 /* LOGO */
 
-#down{
+/* #down{
     position: absolute;
     height: 5%;
     width: 5%;
     top: 9%;
     left: 57%;
-}
+} */
 
 /* AVERS AAUA */
 
 #how{
  position: absolute;
  top: 5%;
-    left: 62%;   
+    left: 62%;  
+    color: black; 
+}
+
+body{
+    padding: 0;
+    margin: 0;
+
+} 
+
+
+.firstimg{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    position:absolute;
+    top: 0;
+    opacity:0;
+    left:0;
+    animation:fade 12s infinite;
+    
+} 
+
+    /* delay for each image before fading */
+
+ #firstimg1{
+    animation-delay: 0s;
+}
+#firstimg2{
+    animation-delay: 3s;
+}
+#firstimg3{
+    animation-delay: 6s;
+}
+#firstimg4{
+    animation-delay: 9s;
+}
+#firstimg5{
+    animation-delay: 12s;
+}
+#firstimg6{
+    animation-delay: 12s;
+}
+
+@keyframes fade{
+0%{
+   opacity: 0;
+}
+10%{
+   opacity: 1;
+}
+25%{
+   opacity: 1;
+} 
+35%{
+    opacity: 0;
+}
+100%{
+  opacity: 0;
+}
+
+
+}
+
+@keyframes typing{
+    0%{
+        width: 0;
+        
+    }
+    50%{
+        width: 230px;
+        
+    }
+
+    100%{
+        width: 0;
+        
+    }
+}
+
+ @keyframes blnk{
+    50%{
+        border-color: transparent;
+    }
+ }
+
+#next{
+    position: absolute;
+    background-color: white;
+    border-radius: 150px;
+    height: 70%;
+    width: 10%;
+    left: 85%;
+    top: 10%;
 }
